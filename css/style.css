@@ -13,7 +13,7 @@
 /* row */
 .row {
     margin-top: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* product */
@@ -23,8 +23,6 @@
     text-align: center;
     position: relative;
 }
-
-/* article */
 .product img {
     max-width: 100%;
     width: 100%;
@@ -48,15 +46,25 @@
     left: 0px;
     background-color: red;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     padding: 3px;
 }
 .product .sustainability {
     position: absolute;
     bottom: 20px;
-    left: 40px;
+    left: 35px;
     background-color: green;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     padding: 3px;
+}
+/* descrizione */
+.descrizione {
+    font-size: 11px;
+}
+.descrizione .prezzo {
+    text-decoration: line-through;
+}
+.descrizione .prezzoscon {
+    color: red;
 }
