@@ -72,7 +72,7 @@
     display: none;
 }
 .product:hover .secondafoto {
-    display: inline-block;
+    display: block;
 }
 /* descrizione */
 .descrizione {
